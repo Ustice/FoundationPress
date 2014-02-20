@@ -1,0 +1,6 @@
+@for $i 1 through 6 {
+	h#{$i} small {
+		line-height: 1.66667em; // size is set to 60%, this keeps the lineheight the same.
+		display: block; // It should be on a new line.
+	}
+}
